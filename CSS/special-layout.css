@@ -1,0 +1,176 @@
+.container1 {
+    width: 82.7%;
+    margin: 0 auto;
+    background-color: #eeeeee;
+    gap: 15px;
+}
+
+.container1::after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+.container-body1 {
+    float: left;
+    width: 70%;
+    background-color: #ffffff;
+    min-height: 200px;
+
+}
+
+.body1 {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+}
+
+.column1 {
+    flex: 2;
+    padding-right: 10px;
+    background-color: #ffffff;
+    text-align: justify;
+}
+
+.column2 {
+    flex: 1.3;
+    background-color: #ffffff;
+}
+
+.column2 img {
+    width: 100%;
+    height: 350px;
+}
+
+.container-body2 {
+    float: right;
+    width: 29%;
+    background-color: #ffffff;
+    min-height: 200px;
+    position: relative;
+}
+
+.body2 {
+    padding: 20px;
+}
+
+.photo-text-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+.photo-text-container a {
+    color: #0B898A;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.photo-text-container a:hover {
+    color: #0B898A;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.photo {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.photo img {
+    width: 90px;
+    height: 70px;
+}
+
+.text {
+    flex: 3;
+}
+
+.text p {
+    text-align: justify;
+}
+
+#prevBtn,
+#nextBtn {
+    position: absolute;
+    bottom: 6px;
+    background-color: #ffffff;
+    border: 1.5px solid #000000;
+    border-radius: 0px;
+    padding: 0px 25px;
+    font-size: 24px;
+    color: #000;
+    cursor: pointer;
+}
+
+#prevBtn {
+    left: 20px;
+}
+
+#nextBtn {
+    right: 20px;
+}
+
+#prevBtn.hidden,
+#nextBtn.hidden {
+    display: none;
+}
+
+.row1 {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+
+/* For iPad Mini */
+@media screen and (max-width: 769px) {
+    .container1 {
+        width: 80%;
+    }
+
+    .container-body1 {
+        width: 100%;
+    }
+
+    .container-body2 {
+        display: none;
+    }
+}
+
+/* For iPhone 14 Pro Max */
+@media screen and (max-width: 431px) {
+    .container1 {
+        width: 100%;
+    }
+
+    .body1 {
+        flex-direction: column;
+    }
+
+    .column1,
+    .column2 {
+        width: 100%;
+        padding: 0;
+    }
+
+    .column1 {
+        order: 1;
+    }
+
+    .column2 {
+        order: 2;
+    }
+
+    .row1 {
+        order: 3;
+    }
+
+    .column2 img {
+        width: 100%;
+        height: 300px;
+    }
+}

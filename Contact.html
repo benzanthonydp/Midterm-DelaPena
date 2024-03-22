@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/layout.css">
+    <link rel="stylesheet" href="CSS/carousel.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
+    <link rel="stylesheet" href="CSS/special-layout.css"> <!-- New CSS file for the two-body layout -->
+    <script src="JS/layout.js"></script>
+    <script src="JS/carousel.js"></script>
+</head>
+
+<style>
+    .body1 img {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        /* Centers the image horizontally */
+    }
+
+    .container-body1 {
+        display: flex;
+        justify-content: space-between;
+        /* Ensure equal spacing between columns */
+    }
+
+    .column {
+        width: calc(33.33% - 0px);
+        /* Ensure equal width for each column with space between them */
+        min-height: 3px;
+        /* Set a minimum height for the columns */
+        border: 1px solid #ffffff;
+        /* Optional: Add borders for visualization */
+        padding: 15px;
+        /* Optional: Add padding for spacing */
+        box-sizing: border-box;
+        /* Include padding and border in the total width */
+    }
+
+    .column h3 {
+        margin: 0;
+        /* Reset the default margin for <p> elements */
+        text-align: justify;
+    }
+
+    .column p {
+        margin: 0;
+        /* Reset the default margin for <p> elements */
+    }
+
+    .small-text {
+        font-size: 12px;
+        /* Adjust the font size as needed for small paragraphs */
+    }
+
+    .bold {
+
+        font-weight: bold;
+        /* Make the text bold */
+        font-size: 20px;
+        /* Adjust the font size as needed for larger text */
+        color: #0B898A;
+        /* Add a text color */
+        text-align: justify;
+    }
+
+    .line2 {
+        border: none;
+        border-top: 2px solid #1DB6B6;
+        width: 100%;
+    }
+
+    /* For iPhone 14 Pro Max */
+    @media screen and (max-width: 431px) {
+        .column {
+            width: calc(100% - 0px);
+            padding: 10px;
+        }
+    }
+</style>
+
+<body>
+
+    <header>
+        <nav id="nav">
+            <a href="Home.html">Home</a>
+            <a href="About.html">About</a>
+            <a href="Location.html">Location</a>
+            <a href="History.html">History</a>
+            <a href="Contact.html">Contact</a>
+        </nav>
+        <div class="menu-icon">&#9776;</div>
+        <div class="image-container">
+            <img src="Image/Banner 1.png" alt="Description of the image">
+        </div>
+
+    </header>
+
+    <div class="container1">
+        <div class="container-body1">
+            <div class="body1">
+                <h1>Contacts</h1>
+                <hr class="line">
+
+                <img src="Image/b.jpg" alt="Description of the image">
+
+                <!-- FIRST ROW -->
+                <div class="column">
+                    <p class="bold">Emergencies</p>
+                </div>
+
+                <div class="column">
+                    <p>CDRRMO (ICER)</p>
+                </div>
+
+                <div class="column">
+                    <p>0961-653-3111 • 0919-066-2333</p>
+                </div>
+
+                <div class="column">
+
+                </div>
+
+                <div class="column">
+                    <p>Red Cross Iloilo</p>
+                </div>
+
+                <div class="column">
+                    <p>337-5950 • 330-49-12</p>
+                </div>
+
+                <div class="column">
+
+                </div>
+
+                <div class="column">
+                    <p>PSTMO</p>
+                </div>
+
+                <div class="column">
+                    <p>333-111 loc 503</p>
+                </div>
+
+                <hr class="line2">
+
+                <!-- SECOND ROW ROW -->
+                <div class="column">
+                    <p class="bold">Fire Station</p>
+                </div>
+
+                <div class="column">
+                    <p>Iloilo City Fire Station</p>
+                    <p class="small-text">Muelle Loney-Montes, City Proper</p>
+                </div>
+
+                <div class="column">
+                    <p>0961-653-3111 • 0919-066-2333</p>
+                </div>
+
+                <div class="column">
+
+                </div>
+
+                <div class="column">
+                    <p>Bureau of Fire Protection</p>
+                    <p class="small-text">Muelle Loney-Montes, City Proper</p>
+                </div>
+
+                <div class="column">
+                    <p>337-3011 • 337-4989</p>
+                </div>
+
+                <div class="column">
+
+                </div>
+
+                <div class="column">
+                    <p>Bo. Obrero, Lapuz Fire Sub Station</p>
+                    <p class="small-text">Bo. Obrero, Lapuz</p>
+                </div>
+
+                <div class="column">
+                    <p>320-3980 • 335-1695</p>
+                </div>
+
+                <hr class="line2">
+
+                <!-- THIRD ROW -->
+                <div class="column">
+                    <p class="bold">Police Station</p>
+                </div>
+
+                <div class="column">
+                    <p>Iloilo City Police Office</p>
+                </div>
+
+                <div class="column">
+                    <p>337-0400 • 0908-377-0194</p>
+                </div>
+
+                <div class="column">
+
+                </div>
+
+                <div class="column">
+                    <p>City Proper / ICPS 1</p>
+
+                </div>
+
+                <div class="column">
+                    <p>337 - 9022 • 0998 598 6242</p>
+                </div>
+
+                <div class="column">
+
+                </div>
+
+                <div class="column">
+                    <p>La Paz / ICPS 2</p>
+                </div>
+
+                <div class="column">
+                    <p>329 - 0904 • 0998-598-6244</p>
+                </div>
+
+                <hr class="line2">
+
+                <!-- FOURTH ROW -->
+                <div class="column">
+                    <p class="bold">Health Centers</p>
+                </div>
+
+                <div class="column">
+                    <p>Arevelo</p>
+                    <p>Bo. Obrero</p>
+                </div>
+
+                <div class="column">
+                    <p>325-2978</p>
+                    <p>315-3012</p>
+                </div>
+
+                <div class="column">
+
+                </div>
+
+                <div class="column">
+                    <p>Jaro I</p>
+                    <p>Jaro II</p>
+                </div>
+
+                <div class="column">
+                    <p>321-0415</p>
+                    <p>315-3036</p>
+                </div>
+
+                <div class="column">
+
+                </div>
+
+                <div class="column">
+                    <p>La Paz</p>
+                    <p>Molo</p>
+                </div>
+
+                <div class="column">
+                    <p>325-0954</p>
+                    <p>321-1462</p>
+                </div>
+
+                <hr class="line2">
+
+                <!-- FIFTH ROW -->
+                <div class="column">
+                    <p class="bold">Hospitals</p>
+                </div>
+
+                <div class="column">
+                    <p>WVMC (Provincial)</p>
+                    <p>St. Paul’s Hospital</p>
+                </div>
+
+                <div class="column">
+                    <p>321-2841</p>
+                    <p>337-2740 </p>
+                </div>
+
+                <div class="column">
+
+                </div>
+
+                <div class="column">
+                    <p>Iloilo Docto’s Hospital</p>
+                    <p>Iloilo Mission Hospital</p>
+                </div>
+
+                <div class="column">
+                    <p>337-7702</p>
+                    <p>337-7702</p>
+                </div>
+
+                <div class="column">
+
+                </div>
+
+                <div class="column">
+                    <p>Qualimed Hospital</p>
+                    <p>Medicus Medical Center</p>
+                </div>
+
+                <div class="column">
+                    <p>501-4843</p>
+                    <p>329-7777</p>
+                </div>
+
+                <hr class="line2">
+
+                <!-- SIXTH ROW -->
+                <div class="column">
+                    <p class="bold">Coast Guard</p>
+                </div>
+
+                <div class="column">
+                    <p>Coast Guard Iloilo Station</p>
+                    <p class="small-text"></p>
+                </div>
+
+                <div class="column">
+                    <p>0966 981 6557</p>
+                    <p>0949 673 3197</p>
+                </div>
+
+                <div class="column">
+
+                </div>
+
+                <div class="column">
+                    <p>Coast Guard Western Visayas</p>
+                </div>
+
+                <div class="column">
+                    <p>0945 687 5254</p>
+                </div>
+
+                <div class="column">
+
+                </div>
+
+                <div class="column">
+                    <p>Coast Guard Guimaras Station</p>
+                </div>
+
+                <div class="column">
+                    <p>0975 563 0181</p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container-body2">
+            <div class="body2">
+                <h3>Top Attractions</h3>
+                <hr class="line">
+
+                <!-- First pair of photo and text -->
+                <div class="photo-text-container">
+                    <div class="photo">
+                        <a href="Page1.html"><img src="Image/1.jpg" alt="Description of the photo"></a>
+                    </div>
+                    <div class="text">
+                        <a href="Page1.html" class="no-underline">Museum of Philippine Maritime History</a>
+                    </div>
+                </div>
+
+                <!-- Second pair of photo and text -->
+                <div class="photo-text-container">
+                    <div class="photo">
+                        <a href="Page2.html"><img src="Image/2.jpg" alt="Description of the photo"></a>
+                    </div>
+                    <div class="text">
+                        <a href="Page2.html" class="no-underline">National Museum - Western Visayas</a>
+                    </div>
+                </div>
+
+                <!-- Third pair of photo and text -->
+                <div class="photo-text-container">
+                    <div class="photo">
+                        <a href="Page3.html"><img src="Image/3.jpg" alt="Description of the photo"></a>
+                    </div>
+                    <div class="text">
+                        <a href="Page3.html" class="no-underline">Iloilo Business Park</a>
+                    </div>
+                </div>
+
+                <!-- Fourth pair of photo and text -->
+                <div class="photo-text-container">
+                    <div class="photo">
+                        <a href="Page4.html"><img src="Image/4.jpg" alt="Description of the photo"></a>
+                    </div>
+                    <div class="text">
+                        <a href="Page4.html" class="no-underline">National Shrine of Nuestra Senora de la Candelaria</a>
+                    </div>
+                </div>
+
+                <!-- Fifth pair of photo and text -->
+                <div class="photo-text-container">
+                    <div class="photo">
+                        <a href="Page5.html"><img src="Image/1a.jpg" alt="Description of the photo"></a>
+                    </div>
+                    <div class="text">
+                        <a href="Page5.html" class="no-underline">Visit Lopez Heritage House</a>
+                    </div>
+                </div>
+
+                <!-- Sixth pair of photo and text -->
+                <div class="photo-text-container">
+                    <div class="photo">
+                        <a href="Page6.html"><img src="Image/6.jpg" alt="Description of the photo"></a>
+                    </div>
+                    <div class="text">
+                        <a href="Page6.html" class="no-underline">Iloilo River Esplanade</a>
+                    </div>
+                </div>
+
+                <!-- Seventh pair of photo and text -->
+                <div class="photo-text-container">
+                    <div class="photo">
+                        <a href="Page7.html"><img src="Image/7.jpg" alt="Description of the photo"></a>
+                    </div>
+                    <div class="text">
+                        <a href="Page7.html" class="no-underline">Camina Balay nga Bato</a>
+                    </div>
+                </div>
+
+                <!-- Eighth pair of photo and text -->
+                <div class="photo-text-container">
+                    <div class="photo">
+                        <a href="Page8.html"><img src="Image/8.jpg" alt="Description of the photo"></a>
+                    </div>
+                    <div class="text">
+                        <a href="Page8.html" class="no-underline">Parish of Saint Anne in Molo</a>
+                    </div>
+                </div>
+
+                <button id="prevBtn">&lt;</button>
+                <button id="nextBtn">&gt;</button>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <footer>
+        <h1>Welcome to Iloilo City</h1>
+        <div class="footer-nav">
+            <a href="Home.html">Home</a>
+            <a href="About.html">About</a>
+            <a href="Location.html">Location</a>
+            <a href="History.html">History</a>
+            <a href="Contact.html">Contact</a>
+        </div>
+    </footer>
+
+    <script>// JavaScript to toggle visibility of navigation links
+        document.querySelector('.menu-icon').addEventListener('click', function () {
+            document.getElementById('nav').classList.toggle('show');
+        });
+    </script>
+
+</body>
+
+</html>

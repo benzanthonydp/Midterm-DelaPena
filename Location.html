@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/layout.css">
+    <link rel="stylesheet" href="CSS/carousel.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
+    <link rel="stylesheet" href="CSS/special-layout.css"> <!-- New CSS file for the two-body layout -->
+    <script src="JS/layout.js"></script>
+    <script src="JS/carousel.js"></script>
+</head>
+
+<style>
+    .body1 img {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .container-body1 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .column {
+        width: calc(50% - 0px);
+        min-height: 3px;
+        border: 1px solid #ffffff;
+        padding: 15px;
+        /* Optional: Add padding for spacing */
+        box-sizing: border-box;
+        /* Include padding and border in the total width */
+    }
+
+    .column h3 {
+        margin: 0;
+        /* Reset the default margin for <p> elements */
+        text-align: justify;
+    }
+
+    .column p {
+        margin: 0;
+        /* Reset the default margin for <p> elements */
+    }
+
+    .small-text {
+        font-size: 12px;
+        /* Adjust the font size as needed for small paragraphs */
+    }
+
+    .bold {
+
+        font-weight: bold;
+        /* Make the text bold */
+        font-size: 24px;
+        /* Adjust the font size as needed for larger text */
+        color: #0B898A;
+        /* Add a text color */
+    }
+
+    /* For iPhone 14 Pro Max */
+    @media screen and (max-width: 431px) {
+        .column {
+            width: calc(100% - 0px);
+            padding: 10px;
+        }
+    }
+</style>
+
+<body>
+
+    <header>
+        <nav id="nav">
+            <a href="Home.html">Home</a>
+            <a href="About.html">About</a>
+            <a href="Location.html">Location</a>
+            <a href="History.html">History</a>
+            <a href="Contact.html">Contact</a>
+        </nav>
+        <div class="menu-icon">&#9776;</div>
+        <div class="image-container">
+            <img src="Image/Banner 1.png" alt="Description of the image">
+        </div>
+
+    </header>
+
+    <div class="container1">
+        <div class="container-body1">
+            <div class="body1">
+                <h1>Location</h1>
+                <hr class="line">
+
+                <!-- FIRST ROW -->
+                <div class="column">
+                    <p class="bold">Soil Type</p>
+                    <p>Iloilo City occupies an alluvial plain primarily composed of river and coastal deposits from the
+                        Holocene period. The soil profile and sedimentary environment confirm multiple layers, leading
+                        to the classification of the area into two sedimentary basins: the Jaro sedimentary basin and
+                        the Iloilo sedimentary basin.</p>
+                </div>
+
+                <div class="column">
+                    <img src="Image/map 2.png" alt="Description of the image">
+                </div>
+
+                <div class="column">
+
+                </div>
+
+                <div class="column">
+
+                </div>
+
+                <div class="column">
+                    <img src="Image/map 3.png" alt="Description of the image">
+                </div>
+
+                <div class="column">
+                    <p class="bold">Slope</p>
+                    <p>Iloilo City exhibits the typical characteristics of an alluvial plain, with a relatively flat
+                        terrain similar to many other coastal cities in the Philippines. Covering over 83% of its total
+                        land area, the city's landscape features slopes of less than 3 degrees. Only a small portion,
+                        approximately 2.26% of the land area, has elevations exceeding 8%. This flat topography makes
+                        the entire city suitable for urban development, with residential, commercial, institutional, and
+                        industrial buildings widely distributed across the area.</p>
+                    <p>.</p>
+                    <p>Specifically, 83.87% of Iloilo City's land falls within the slope category of less than 3%, while
+                        5.23% is categorized within the 3-8% slope range. The remaining 2.26% consists of areas with
+                        slopes greater than 8%. Overall, the city is deemed suitable for urban use throughout its
+                        entirety.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-body2">
+            <div class="body2">
+                <h3>Top Attractions</h3>
+                <hr class="line">
+
+                <!-- First pair of photo and text -->
+                <div class="photo-text-container">
+                    <div class="photo">
+                        <a href="Page1.html"><img src="Image/1.jpg" alt="Description of the photo"></a>
+                    </div>
+                    <div class="text">
+                        <a href="Page1.html" class="no-underline">Museum of Philippine Maritime History</a>
+                    </div>
+                </div>
+
+                <!-- Second pair of photo and text -->
+                <div class="photo-text-container">
+                    <div class="photo">
+                        <a href="Page2.html"><img src="Image/2.jpg" alt="Description of the photo"></a>
+                    </div>
+                    <div class="text">
+                        <a href="Page2.html" class="no-underline">National Museum - Western Visayas</a>
+                    </div>
+                </div>
+
+                <!-- Third pair of photo and text -->
+                <div class="photo-text-container">
+                    <div class="photo">
+                        <a href="Page3.html"><img src="Image/3.jpg" alt="Description of the photo"></a>
+                    </div>
+                    <div class="text">
+                        <a href="Page3.html" class="no-underline">Iloilo Business Park</a>
+                    </div>
+                </div>
+
+                <!-- Fourth pair of photo and text -->
+                <div class="photo-text-container">
+                    <div class="photo">
+                        <a href="Page4.html"><img src="Image/4.jpg" alt="Description of the photo"></a>
+                    </div>
+                    <div class="text">
+                        <a href="Page4.html" class="no-underline">National Shrine of Nuestra Senora de la Candelaria</a>
+                    </div>
+                </div>
+
+                <!-- Fifth pair of photo and text -->
+                <div class="photo-text-container">
+                    <div class="photo">
+                        <a href="Page5.html"><img src="Image/1a.jpg" alt="Description of the photo"></a>
+                    </div>
+                    <div class="text">
+                        <a href="Page5.html" class="no-underline">Visit Lopez Heritage House</a>
+                    </div>
+                </div>
+
+                <!-- Sixth pair of photo and text -->
+                <div class="photo-text-container">
+                    <div class="photo">
+                        <a href="Page6.html"><img src="Image/6.jpg" alt="Description of the photo"></a>
+                    </div>
+                    <div class="text">
+                        <a href="Page6.html" class="no-underline">Iloilo River Esplanade</a>
+                    </div>
+                </div>
+
+                <!-- Seventh pair of photo and text -->
+                <div class="photo-text-container">
+                    <div class="photo">
+                        <a href="Page7.html"><img src="Image/7.jpg" alt="Description of the photo"></a>
+                    </div>
+                    <div class="text">
+                        <a href="Page7.html" class="no-underline">Camina Balay nga Bato</a>
+                    </div>
+                </div>
+
+                <!-- Eighth pair of photo and text -->
+                <div class="photo-text-container">
+                    <div class="photo">
+                        <a href="Page8.html"><img src="Image/8.jpg" alt="Description of the photo"></a>
+                    </div>
+                    <div class="text">
+                        <a href="Page8.html" class="no-underline">Parish of Saint Anne in Molo</a>
+                    </div>
+                </div>
+
+                <button id="prevBtn">&lt;</button>
+                <button id="nextBtn">&gt;</button>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <footer>
+        <h1>Welcome to Iloilo City</h1>
+        <div class="footer-nav">
+            <a href="Home.html">Home</a>
+            <a href="About.html">About</a>
+            <a href="Location.html">Location</a>
+            <a href="History.html">History</a>
+            <a href="Contact.html">Contact</a>
+        </div>
+    </footer>
+
+    <script>// JavaScript to toggle visibility of navigation links
+        document.querySelector('.menu-icon').addEventListener('click', function () {
+            document.getElementById('nav').classList.toggle('show');
+        });
+    </script>
+
+</body>
+
+</html>

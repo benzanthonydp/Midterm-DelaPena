@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/layout.css">
+    <link rel="stylesheet" href="CSS/carousel.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
+    <script src="JS/layout.js"></script>
+    <script src="JS/carousel.js"></script>
+</head>
+
+<style>
+    h2 {
+        color: #0B898A;
+        /* Change 'blue' to your desired color */
+    }
+</style>
+
+<body>
+
+    <header>
+        <nav id="nav">
+            <a href="Home.html">Home</a>
+            <a href="About.html">About</a>
+            <a href="Location.html">Location</a>
+            <a href="History.html">History</a>
+            <a href="Contact.html">Contact</a>
+        </nav>
+        <div class="menu-icon">&#9776;</div>
+        <div class="image-container">
+            <img src="Image/Banner 1.png" alt="Description of the image">
+        </div>
+
+    </header>
+
+    <div class="container">
+        <h1>Home</h1>
+        <hr class="line">
+        <div class="carousel-container">
+            <h2>Top 8 Attractions in Ilo-Ilo</h2>
+            <div class="carousel">
+
+                <div class="carousel-item">
+                    <a href="Page1.html">
+                        <img src="Image/1.jpg" alt="Image 1">
+                        <h2 class="header-link">Museum of Philippine Maritime History</h2>
+                    </a>
+                    <p>Destrict. Aduana Building, Iloilo River Wharf, The Philippines, Muelle Loney St. Iloilo City
+                        Proper</p>
+                </div>
+
+                <div class="carousel-item">
+                    <a href="Page2.html">
+                        <img src="Image/2.jpg" alt="Image 2">
+                        <h2 class="header-link">National Museum - Western Visayas</h2>
+                    </a>
+                    <p>Bonifacio Drive. City Proper 5000 Iloilo City, Philippines</p>
+                </div>
+
+                <div class="carousel-item">
+                    <a href="Page3.html">
+                        <img src="Image/3.jpg" alt="Image 2">
+                        <h2 class="header-link">Iloilo Business Park</h2>
+                    </a>
+                    <p>Bonifacio Drive. City Proper 5000 Iloilo City, Philippines.</p>
+                </div>
+
+                <div class="carousel-item">
+                    <a href="Page4.html">
+                        <img src="Image/4.jpg" alt="Image 2">
+                        <h2 class="header-link">Jaro Cathedral - National Shrine of Nuestra Senora de la Candelaria</h2>
+                    </a>
+                    <p>Jaro Iloilo City</p>
+                </div>
+
+                <div class="carousel-item">
+                    <a href="Page5.html">
+                        <img src="Image/5.jpg" alt="Image 1">
+                        <h2 class="header-link">Visit Lopez Heritage House</h2>
+                    </a>
+                    <p>Nelly Garden, owned by the Lopez Clan, is one of the famous landmarks in Jaro</p>
+                </div>
+
+                <div class="carousel-item">
+                    <a href="Page6.html">
+                        <img src="Image/6.jpg" alt="Image 2">
+                        <h2 class="header-link">Unwind at Iloilo River Esplanade</h2>
+                    </a>
+                    <p>Iloilo Riverside Blvd, Mandurrio, Iloilo City, Iloilo</p>
+                </div>
+
+                <div class="carousel-item">
+                    <a href="Page7.html">
+                        <img src="Image/7.jpg" alt="Image 2">
+                        <h2 class="header-link">Appreciate Heritage at Camina Balay nga Bato</h2>
+                    </a>
+                    <p>Camina Balay nga Bato, Osmena Street, Villa Arevalo District, Iloilo City</p>
+                </div>
+
+                <div class="carousel-item">
+                    <a href="Page8.html">
+                        <img src="Image/8.jpg" alt="Image 2">
+                        <h2 class="header-link">Parish of Saint Anne in Molo</h2>
+                    </a>
+                    <p>Location: San Pedro Street, Molo, Iloilo City</p>
+                </div>
+
+            </div>
+            <div class="carousel-btn prev" onclick="moveCarousel(-1)">❮</div>
+            <div class="carousel-btn next" onclick="moveCarousel(1)">❯</div>
+        </div>
+    </div>
+
+    <footer>
+        <h1>Welcome to Iloilo City</h1>
+        <div class="footer-nav">
+            <a href="Home.html">Home</a>
+            <a href="About.html">About</a>
+            <a href="Location.html">Location</a>
+            <a href="History.html">History</a>
+            <a href="Contact.html">Contact</a>
+        </div>
+    </footer>
+
+    <script>// JavaScript to toggle visibility of navigation links
+        document.querySelector('.menu-icon').addEventListener('click', function () {
+            document.getElementById('nav').classList.toggle('show');
+        });
+    </script>
+
+</body>
+
+</html>

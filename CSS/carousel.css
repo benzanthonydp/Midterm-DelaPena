@@ -1,0 +1,74 @@
+/* Additional CSS for Carousel */
+.carousel-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+    transition-timing-function: ease-in-out;
+}
+
+.carousel img {
+    width: 400px;
+    height: 350px;
+    padding-right: 10px;
+    flex-shrink: 0;
+    transition: transform 0.5s ease;
+    transition-timing-function: ease-in-out;
+}
+
+.carousel-item {
+    text-align: left;
+    width: 400px;
+    padding-right: 10px;
+}
+
+.carousel-item a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.carousel-item a:hover {
+    text-decoration: underline;
+}
+
+.carousel-item h2 {
+    color: #0B898A;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.carousel-item p {
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    cursor: pointer;
+}
+
+.carousel-btn.prev {
+    left: 10px;
+}
+
+.carousel-btn.next {
+    right: 10px;
+}
+
+
+
