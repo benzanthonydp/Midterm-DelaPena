@@ -95,3 +95,7 @@ footer .footer-nav a:hover {
     border-top: 3px solid #1DB6B6;
     width: 100%;
 }
+
+p {
+    line-height: 1.5;
+}
